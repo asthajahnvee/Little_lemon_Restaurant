@@ -1,0 +1,253 @@
+*{
+    margin: 0em;
+    /* margin: 0.15em; */
+    padding: 0;
+}
+body{
+    background: rgba(183, 183, 183, 0.44);
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* HEADER CSS */
+.logoimg img{
+    width: 429px;
+    height: 106px;
+}
+header{
+    align-items:start;
+    display: flex;
+}
+.navb{
+    display: flex;
+}
+.navb ul{
+    list-style: none;
+    margin-right: 0px;
+    margin-left: 350px;
+}
+.navb li{
+    display: inline-block;
+    font-size: 27px;
+    margin-top: 26px;
+    margin-left: 15px;
+    /* margin-right: 23px; */
+    padding: 0.5em;
+}
+.navb a{
+    text-decoration: none;
+    color: #000;
+}
+.navb img{
+    margin: 12px 0px 28px 60px;
+    padding: 0.7em;
+}
+.navb li:hover{
+    transition: 0.5s;
+    background-color:#EED049;
+    border-radius: 16px;
+}
+.navb img:hover{
+    transition: 0.5s;
+    background-color: #EED049;
+    border-radius: 16px;
+}
+/* header CSS finished */
+
+/* MAIN CSS */
+main div{
+    margin-bottom: 50px;
+}
+/* overview css (first div of main) */
+.overview{
+    background-color: #4E5E57;
+    display: flex;
+}
+.overview span{
+    margin-left: 49px;
+    margin-right: 27px;
+    margin-top: 24px;
+    margin-bottom: 53px;
+}
+.overview h1{
+    color: #EED049;
+    font-family: Inria Serif;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom:  11px;
+}
+.overview h2{
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    padding-bottom: 29px;
+}
+.overview p{
+    
+    height: 86px;
+    color: #FFF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px; 
+    padding-bottom: 15px;
+}
+.overview a{
+    padding: 11px;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 31px; 
+    text-decoration: none;
+    color: #4E5E57;
+    background-color:#EED049 ;
+    border-radius: 16px;
+    border-bottom: 2.5px solid;
+    border-bottom-color: rgba(245, 245, 245,0.7);
+}
+.overview a:hover{
+    padding: 15px;
+    font-size: 21.5px;
+}
+.overview img{
+    margin-top: 31px;
+    margin-left: 30px;
+}
+/* special_dish CSS (second div of mains) */
+.special_dish h1{
+    color: #4E5E57;
+    margin-left: 60px;
+    font-weight: 400;
+    font-family: Inria Serif;
+    font-size: 45px;
+}
+.dishes{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 27px;
+    margin-left: 60px;
+}
+.dishes article{
+    width: 380px;
+    height: 540px;
+    margin-top: 28px;
+    margin-left: 43px;
+    margin-right: 43px;
+    background-color: #4E5E57;
+    border-radius: 16px;
+
+}
+.dishes h1{
+    margin-top: 10px;
+    margin-left: 27px;
+    font-size: 36px;
+    color: #EED049;
+}
+.dishes h2{
+    font-size: 27px;
+    font-weight: 400;
+    color: #FFF;
+    margin-top: 5px;
+    margin-left: 27px;
+    font-family: Inria Serif;
+}
+.dishes p{
+    margin-left: 27px;
+    color: #FFF;
+    margin-top: 15px;
+    margin-right: 40px;
+}
+.dishes button{
+    margin-top: 40px;
+    margin-left: 27px;
+    padding: 15px 25px 15px 25px;
+    background-color: #EED049;
+    border: none;
+    border-radius: 16px;
+}
+.dishes a{
+    text-decoration: none;
+    font-size: 21px;
+    color: #4E5E57;
+}
+.dishes button :hover{
+    padding: 20px 30px;
+}
+/* TESTIMONIALS CSS */
+
+/* HISTORY CSS */
+.history{
+    height: 398px;
+    background-color: #EED049;
+    display: flex;
+}
+.history h1{
+    color: #4E5E57;
+    font-family: Inria Serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 43px;
+}
+.history h2{
+    color: #fff;
+    font-family: Inria Serif;
+    font-size: 45px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 43px;
+}
+.history p{
+    width: 700px;
+    margin-top: 19px;
+    margin-left: 43px;
+    line-height: 31px;
+}
+.img img{
+    margin-right: 0px;
+    margin-left: 263px;
+}
+/* Main CSS finished */
+
+/* footer CSS */
+footer{
+    margin-top: -50px;
+    background-color: #000;
+}
+.footersett{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.footersett div{
+    margin-left:100px ;
+    margin-top: 46px;
+}
+footer img{
+    margin-left: 100px;
+    margin-bottom: 46px;
+    /* margin-bottom: 46px;  */
+}
+footer h1{
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+color: #FFF;
+padding-top: 12px;
+}
+footer a{
+    color: #fff;
+}
+
+/* footer CSS finished */

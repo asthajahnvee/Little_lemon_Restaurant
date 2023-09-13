@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Reservation</title>
+    <link rel="stylesheet" href="reservation.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <!-- logo -->
+        <div class="logoimg">
+            <img src="img/logo mini.png" alt="logo image of little lemon">
+        </div>
+        <!-- navigation -->
+        <nav class="navb">
+            <!-- list of pages -->
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="About.html">About Us</a></li>
+           </ul>
+           <!-- cart button -->
+           <a href="cart.html"><img src="img/cart.png" width="54px" height="54px" alt="icon of cart"></a>
+        </nav>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- side image -->
+        <span class="img">
+            <img src="img/tables asthetics.jpg">
+        </span>
+        <!-- reservation form -->
+        <span class="form">
+            <h1>Reserve a table</h1>
+            <form action="#">
+                <!-- name -->
+                <div>
+                    <label for="name">Name</label><br>
+                    <input type="text" required>
+                </div>
+                <!-- email -->
+                <div>
+                    <label for="email">E-mail ID</label><br>
+                    <input type="email" required>
+                </div>
+                <!-- Contact -->
+                <div>
+                    <label for="Contactno">Contact number</label><br>
+                    <input type="tel" required>
+                </div>
+                <!-- Reservation date -->
+                <div>
+                    <label for="Resdate">Reservation Date</label><br>
+                    <input type="date" required>
+                </div>
+                <!-- Reservation Time -->
+                <div>
+                    <label for="Restime">Reservation Time</label><br>
+                    <input type="time" required>
+                </div>
+                <!-- PeopleCount -->
+                <div>
+                    <label for="PeopleCount">People</label><br>
+                    <input type="range" id="PeopleCount" name="PeopleCount" min="0" max="8" required>
+                </div>
+                <!-- ocassion -->
+                <div>
+                    <label for="ocassion">Occasion</label><br>
+                    <select id="Occasion" name="Occasion" required>
+                        <option value="Family">Family Dine</option>
+                        <option value="Friends" selected>Friends</option>
+                        <option value="Self">Self date</option>
+                        <option value="Birthday">Birthday</option>
+                        <option value="Wedding Anniversary">Wedding Anniversary</option>
+                        <option value="Date">Romantic Date</option>
+                      </select>
+                </div>
+                <!-- Seating preference -->
+                <div>
+                    <label for="preference">Preference</label><br>
+                    <select id="preference" name="preference" required>
+                        <option value="window" selected>Window table</option>
+                        <option value="cubical">Presonal cubical</option>
+                        <option value="Outdoor">Outdoor</option>
+                        <option value="Near Door">Near Door</option>
+                        <option value="Workdine table">Workdine table</option>
+                      </select>
+                </div>
+                <div>
+                    <label for="special demand">Additional Comment</label><br>
+                    <textarea></textarea>
+                </div>
+                <div>
+                    <input type="submit" value="Reserve the table">
+                </div>
+            </form>
+        </span>
+    </main>
+    <!--footer-->
+    <footer>
+        <div class="footersett">
+        <div>
+            <img src="img/logo2.png" alt="logo image vertical">
+        </div>
+        <div class="navfoot">
+            <h1>Navigation</h1>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="About.html">About Us</a></li>
+            </ul>
+        </div>
+        <div class="contactfoot">
+            <h1>Contact</h1>
+            <ul>
+                <li>2395 Maldove Way, Chicago Illinois</li>
+            </ul>
+        </div>
+        <div class="connectfoot">
+            <h1>Connect</h1>
+            <ul>
+                <li>Facebook</li>
+                <li>Instagram</li>
+            </ul>
+        </div>
+    </div>
+    </footer>
+</body>
+</html>

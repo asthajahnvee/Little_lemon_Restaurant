@@ -1,0 +1,209 @@
+*{
+    margin: 0em;
+    /* margin: 0.15em; */
+    padding: 0;
+}
+body{
+    background-color: rgba(183, 183, 183, 0.44);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* HEADER CSS */
+.logoimg img{
+    width: 429px;
+    height: 106px;
+}
+header{
+    align-items:start;
+    display: flex;
+}
+.navb{
+    display: flex;
+}
+.navb ul{
+    list-style: none;
+    margin-right: 0px;
+    margin-left: 350px;
+}
+.navb li{
+    display: inline-block;
+    font-size: 27px;
+    margin-top: 26px;
+    margin-left: 15px;
+    /* margin-right: 23px; */
+    padding: 0.5em;
+}
+.navb a{
+    text-decoration: none;
+    color: #000;
+}
+.navb img{
+    margin: 12px 0px 28px 60px;
+    padding: 0.7em;
+}
+.navb li:hover{
+    transition: 0.5s;
+    background-color:#EED049;
+    border-radius: 16px;
+}
+.navb img:hover{
+    transition: 0.5s;
+    background-color: #EED049;
+    border-radius: 16px;
+}
+/* header CSS finished */
+
+/* MAIN CSS */
+main{
+    background-color: #4E5E57;
+    margin-top: -20px;
+}
+main a{
+    text-decoration: none;
+    color: #000;
+}
+.new{
+    /* border: rgba(0, 0, 0.0.3); */
+    max-height: 211px;
+    border-bottom: solid;
+    border-top: solid;
+    border-color: #EED049;
+    background-color: #ffffff;
+    color: #000;
+    display: flex;
+    flex-wrap: wrap;
+}
+.new img{
+    max-width: 375px;
+    max-height: 211px;
+}
+.new h2{
+    font-family: Inter;
+    font-size: 30px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.new h1{
+    font-family: Inter;
+    font-size: 27px;
+    margin-left: 100px;
+    margin-top: 10px;
+}
+.new p{
+    max-width: 850px;
+    font-family: Inter;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 15px;
+}
+.new button{
+    padding: 11px;
+    background-color: #fff;
+    border: #4E5E57 double 1px;
+    color: #EED049;
+    font-family: Inter;
+    font-size: 18px;
+    margin-left: 100px;
+    margin-top: 15px;
+    border-radius: 9px;
+}
+.new button:hover{
+    background-color: #EED049;
+    border: none;
+    /* color: #fff; */
+}
+main >h1{
+    margin-left: 100px;
+    font-family: Inter;
+    font-size: 30px;
+    padding: 10px;
+    color: #EED049;
+}
+/* menu dishes */
+.menudish{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.menudish div{
+    background-color: #FFF;
+    max-height: 200px;
+    margin-top: 15px;
+    margin: 10px;
+    border: #EED049 solid 2px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.menudish img{
+    max-width: 200px;
+    max-height: 200px;
+    border-right: #EED049 solid 2px;
+}
+.menudish h1{
+    font-family: Inter;
+    font-size: 27px;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.menudish p{
+    max-width: 400px;
+    font-family: Inter;
+    font-size: 18px;
+    margin-left: 40px;
+    margin-top: 15px;
+    padding: 10px;
+}
+.menudish button{
+    padding: 11px;
+    background-color: #fff;
+    border: #4E5E57 double 1px;
+    color: #EED049;
+    font-family: Inter;
+    font-size: 18px;
+    margin-left: 50px;
+    margin-top: 15px;
+    border-radius: 9px;
+}
+.menudish button:hover{
+    background-color: #EED049;
+    border: none;
+    /* color: #fff; */
+}
+/* Main CSS finished */
+
+/* FOOTER CSS */
+footer{
+    /* margin-top: -50px; */
+    background-color: #000;
+}
+.footersett{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 50px;
+}
+.footersett div{
+    margin-left:100px ;
+    margin-top: 46px;
+}
+footer img{
+    margin-left: 100px;
+    margin-bottom: 46px;
+    /* margin-bottom: 46px;  */
+}
+footer h1{
+    color: #FFF;
+    font-family: Inria Serif;
+    font-size: 36px;
+    font-weight: 400;
+}
+footer ul{
+    list-style: none;
+}
+footer li{
+color: #FFF;
+padding-top: 12px;
+}
+footer a{
+    color: #FFF;
+}
+/* footer CSS finished */
